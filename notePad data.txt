@@ -1,0 +1,91 @@
+chandra
+=======
+
+
+http://localhost:Test_OAUTH_912.client:redirectServ
+
+
+redirect URI
+http://localhost:5555/invoke/Test_OAUTH_912.client/redirectServ
+
+
+
+client ID
+5316d9202c7c17f9bc37ffffffff45c1
+
+
+
+http://localhost:5555/invoke/pub.oauth:authorize?client_id=5316d9202c7c17f9bc37ffffffff45c1&response_type=code
+
+
+code
+29cc71303cee19e28d62ffffffff3b1c
+
+
+
+grant_type
+authorization_code
+
+
+
+scope
+Test_OAUTH_912_scope
+
+
+
+Page12:
+--------------------
+
+
+
+http%3A%2F%2Flocalhost%3A5555%2Finvoke%2FTest_OAUTH_912.client%2FredirectServ
+
+
+
+
+
+access token
+bd565470c6021791b15dffffffff33c6
+
+
+
+
+oauth.executeRequest
+inputs
+
+provider=IntegrationServer
+resource URI= http://localhost:5555/invoke/Test_OAUTH_912.resourceServer/getDate
+
+
+
+
+
+
+
+http://localhost:5555/rest/Test_OAUTH_912/resourceServer/getDate
+
+
+Page 13:
+---------------------------
+
+ecef9690667e1712ae9bffffffff1605
+
+
+token
+11205f607f8a1163a928ffffffff159a
+
+Page 14:
+-----------------
+
+<BODY bgcolor=#dddddd>
+<TABLE bgcolor=#dddddd border=1>
+<TR>
+<TD valign="top"><B>datetemp</B></TD>
+<TD>12344</TD>
+</TR>
+<TR>
+<TD valign="top"><B>access_token</B></TD>
+<TD>11205f607f8a1163a928ffffffff159a</TD>
+</TR>
+</TABLE>
+</BODY>
